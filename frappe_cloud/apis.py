@@ -29,10 +29,10 @@ def create_site():
         if site_exists:
             # [site_job_name,site_job_status]=create_new_site(site_name, password)
             # return Response({'message': 'Site creation process initiated successfully','site_job_name':site_job_name,'site_job_status':site_job_status}, status=status.HTTP_200_OK)
-            return "Sucess"        
+            return "Error"        
         else:
             # return Response({'message': 'Site already exist in bench.','site_job_name':'','site_job_status':''}, status=status.HTTP_200_OK)
-            return "error"
+            return "Create New site"
     except Exception as e:
         # raise e
         print(e)
