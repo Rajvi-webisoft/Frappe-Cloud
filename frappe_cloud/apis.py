@@ -1,15 +1,5 @@
 import frappe
 import json
-from click import command
-from kubernetes import client, config
-from kubernetes.stream import stream
-import yaml
-import subprocess
-from kubernetes import client, config
-from kubernetes.client.rest import ApiException
-import re
-from datetime import datetime
-import os
 
 
 @frappe.whitelist()
